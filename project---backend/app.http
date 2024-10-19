@@ -1,0 +1,20 @@
+
+
+
+POST http://localhost:3000/todo/
+Content-Type: application/json 
+
+{
+    "id": 4,
+    "todo": "Learn CSS",
+    "priority": "High",
+    "status": "Done"
+}
+
+###
+
+DELETE http://localhost:3000/todo/1/
+###
+
+GET http://localhost:3000/todo/
+###
